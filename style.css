@@ -1,0 +1,31 @@
+.fond {
+	background-color: lightgrey;
+}
+
+footer {
+	background-color: lightgrey;
+}
+
+header {
+	background-color: black;
+	color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.flex div{
+	width: 200px;
+	margin: 20px;
+}
+
+.flex img {
+    width: 50%;
+    max-height: 200px; /* Taille maximale de l'image */
+    object-fit: cover; /* Redimensionner l'image pour remplir le conteneur */
+    border-radius: 5px; /* Ajouter des coins arrondis */
+  }
